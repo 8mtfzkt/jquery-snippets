@@ -1,0 +1,25 @@
+{
+  "name": "jquery-snippets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "terser src/jquery-snippets.js -c -m -o dist/jquery-snippets.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8mtfzkt/jquery-snippets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/8mtfzkt/jquery-snippets/issues"
+  },
+  "homepage": "https://github.com/8mtfzkt/jquery-snippets#readme",
+  "devDependencies": {
+    "terser": "^5.46.0"
+  }
+}
