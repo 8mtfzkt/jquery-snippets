@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>jquery-snippets Demo</title>
+</head>
+<body>
+  <h1>jquery-snippets Demo</h1>
+
+  <button id="btn">Klick mich</button>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <!-- Nutze die "dist"-Datei wie ein CDN-Asset -->
+  <script src="./dist/jquery-snippets.min.js"></script>
+
+  <script>
+    $("#btn").snippetHello({ message: "Hallo von GitHub Pages!", setText: true });
+  </script>
+</body>
+</html>
